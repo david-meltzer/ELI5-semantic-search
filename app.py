@@ -9,13 +9,14 @@ from transformers import AutoModel, AutoTokenizer
 
 from datasets import load_dataset
 
-#@st.cache
-@st.cache_data
+#@st.cache_data
+@st.cache
 def read_data(dataset_repo='dhmeltzer/ELI5_embedded'):
     """Read the data from huggingface."""
     return load_dataset(dataset_repo)['train']
 
-@st.cache_data
+#@st.cache_data
+@st.cache
 def load_faiss_index(path_to_faiss="./faiss_index.pickle"):
     """Load and deserialize the Faiss index."""
     with open(path_to_faiss, "rb") as h:

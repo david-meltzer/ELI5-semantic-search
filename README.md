@@ -10,3 +10,5 @@ pinned: false
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+This app is hosted on Huggingface, see <a href="https://huggingface.co/spaces/dhmeltzer/semantic">here</a>.
