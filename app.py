@@ -1,11 +1,8 @@
 import faiss
 import pickle
-import datasets
 import numpy as np
 import requests
 import streamlit as st
-from vector_engine.utils import vector_search 
-from transformers import AutoModel, AutoTokenizer
 
 from datasets import load_dataset
 
