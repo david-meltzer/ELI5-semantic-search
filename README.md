@@ -11,4 +11,4 @@ pinned: false
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
-This app is hosted on Huggingface, see <a href="https://huggingface.co/spaces/dhmeltzer/semantic">here</a>.
+This application is a semantic search engine for the ELI5 dataset. The application is hosted on Huggingface, see <a href="https://huggingface.co/spaces/dhmeltzer/semantic">here</a> to test it for yourself!
