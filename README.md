@@ -1,2 +1,4 @@
-This application is a semantic search engine for the ELI5 dataset. The application is hosted on Huggingface, see <a href="https://huggingface.co/spaces/dhmeltzer/semantic">here</a> to test it for yourself!
+This application is a semantic search engine for the ELI5 dataset. We used a combination of the <a href="https://www.sbert.net/">SentenceTransformers</a> as well as the <a href="https://github.com/facebookresearch/faiss">Faiss</a> library to create this search engine. The SentenceTransformers library is used to embed the query and each entry of the dataset into a high-dimensional vector space which encodes the semantic meaning behind the text while the Faiss library allows us to perform a fast search through this vector space.
+
+The application is hosted on Huggingface, see <a href="https://huggingface.co/spaces/dhmeltzer/semantic">here</a> to test it for yourself!
 For more details about the ELI5 dataset see the original <a href="https://github.com/facebookresearch/ELI5">repository</a> created by researchers at Facebook.
